@@ -1,8 +1,8 @@
 import axios from 'axios'
-import router from '../router'
+import router from '../src/router/index'
 
 const requestAxios = axios.create({
-    baseURL: 'https://rent-rest-340e6-default-rtdb.firebaseio.com/'
+    baseURL: 'https://cloudstorage-a6a00-default-rtdb.europe-west1.firebasedatabase.app/'
 })
 
 requestAxios.interceptors.response.use(null, error => {

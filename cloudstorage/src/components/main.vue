@@ -15,5 +15,6 @@ export default {
   .main {
     text-align: left;
     background: var(--white);
+    padding: 10px;
   }
 </style>

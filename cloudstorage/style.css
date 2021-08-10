@@ -1,10 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     font-family: Montserrat;
+}
+
+.background {
+    background: url("./src/image/Background layer.jpg");
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 1540px;
+    margin: 0 auto;
+}
+
+.none {
+    background: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 5px 0;
+    padding: 0;
 }
 
 :root {
